@@ -5,3 +5,13 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 
 // JavaScript
 //TODO
+import "bootstrap"
+
+// let name = "London"
+// const university = "Weber State University"
+// console.log("Welcome " + alert(displayMessage))
+
+
+
+
+
