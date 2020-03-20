@@ -7,6 +7,12 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 //TODO
 import "bootstrap"
 
+let f = document.getElementById("myForm")
+f.onsubmit = function(){
+    let n = document.getElementById("name").value
+    alert("Welcome " + n)
+}
+
 // let name = "London"
 // const university = "Weber State University"
 // console.log("Welcome " + alert(displayMessage))
